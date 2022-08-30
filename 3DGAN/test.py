@@ -19,7 +19,7 @@ import os
 
 
 def parse_args():
-  parse = argparse.ArgumentParser(description='CTGAN')
+    parse = argparse.ArgumentParser(description='CTGAN')
   parse.add_argument('--data', type=str, default='', dest='data',
                      help='input data ')
   parse.add_argument('--tag', type=str, default='', dest='tag',
